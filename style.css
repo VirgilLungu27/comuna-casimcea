@@ -46,7 +46,7 @@ h2 {
     transform: translateX(0);
 }
 
-.nav-black {
+.nav-blue {
     background-color: rgb(89, 66, 173);
     width: 60%;
     max-width: 420px;
@@ -54,7 +54,7 @@ h2 {
     transition-delay: 0.4s;         
 }
 
-.nav-black.visible {
+.nav-blue.visible {
     transition-delay: 0s;
 }
 
@@ -68,23 +68,24 @@ h2 {
     transition-delay: 0.2s;
 }
 
-.nav-white {
-    background-color: white;
+.nav-black {
+    background-color: rgb(27, 26, 26);
     width: 95%;
     padding: 40px;
     position: relative;
     transition-delay: 0s;
 }
 
-.nav-white.visible {
+.nav-black.visible {
     transition-delay: 0.4s;
 }
 
 .close-btn {
-    opacity: 0.3;
+    opacity: 0.8;
     position: absolute;
     top: 40px;
     right: 30px;
+    color: whitesmoke;
 }
 
 .image-container {
