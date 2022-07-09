@@ -19,6 +19,20 @@ h2 {
     font-weight: 200;
 }
 
+.nav-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+.open-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
 .image-container {
     display: flex;
     flex-direction: column;
