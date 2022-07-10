@@ -17,6 +17,7 @@ body {
     background-position: center center;
     background-size: cover;
     transition: 0.5s ease;
+
 }
 
 body::before {
@@ -26,6 +27,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);  
     z-index: -1;
 }
 
@@ -214,7 +216,7 @@ img:focus {
 
 .right-arrow {
     right: calc(15vw - 67px);
-    color: black;
+    color: #fff;
 }
 
 @media (max-width: 840px) {
