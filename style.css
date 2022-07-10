@@ -91,7 +91,7 @@ h2 {
 .nav-blue {
     background-color: rgba(89, 66, 173, 0.6);
     width: 60%;
-    max-width: 210px;
+    max-width: 200px;
     min-width: 160px;
     transition-delay: 0.4s;         
 }
@@ -111,7 +111,7 @@ h2 {
 }
 
 .nav-black {
-    background-color: rgba(27, 26, 26, 0.6);
+    background-color: rgba(27, 26, 26, 0.85);
     width: 95%;
     padding: 40px;
     position: relative;
