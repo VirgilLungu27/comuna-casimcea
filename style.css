@@ -16,7 +16,7 @@ body {
     overflow: hidden;
     background-position: center center;
     background-size: cover;
-    transition: 0.5s ease;
+    transition: 0.25s ease;
 
 }
 
@@ -89,10 +89,10 @@ h2 {
 }
 
 .nav-blue {
-    background-color: rgb(89, 66, 173);
+    background-color: rgba(89, 66, 173, 0.6);
     width: 60%;
-    max-width: 420px;
-    min-width: 300px;
+    max-width: 210px;
+    min-width: 160px;
     transition-delay: 0.4s;         
 }
 
@@ -101,7 +101,7 @@ h2 {
 }
 
 .nav-red {
-    background-color: rgb(229, 9, 20);
+    background-color: rgba(229, 9, 20, 0.6);
     width: 95%;
     transition-delay: 0.2s;
 }
@@ -111,7 +111,7 @@ h2 {
 }
 
 .nav-black {
-    background-color: rgb(27, 26, 26);
+    background-color: rgba(27, 26, 26, 0.6);
     width: 95%;
     padding: 40px;
     position: relative;
