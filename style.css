@@ -207,13 +207,13 @@ img:focus {
 }
 
 .left-arrow {
-    left: calc(15vw - 65px);
+    left: calc(15vw - 67px);
     color: #fff;
 }
 
 .right-arrow {
-    right: calc(15vw - 65px);
-    color: #fff;
+    right: calc(15vw - 67px);
+    color: black;
 }
 
 @media (max-width: 840px) {
