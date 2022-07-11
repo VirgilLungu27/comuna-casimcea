@@ -47,3 +47,10 @@ function setActiveSlide() {
 
     slides[activeSlide].classList.add('active');
 }
+
+async function getWeather(url) {
+    const res = await fetch(url);
+    const data = await res.json();
+
+    showWeather(data.results);
+}
