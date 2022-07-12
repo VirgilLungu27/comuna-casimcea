@@ -23,6 +23,10 @@ info.addEventListener('click', (e) => {
     window.open("https://ro.wikipedia.org/wiki/Casimcea,_Tulcea", '_blank');
 })
 
+ro.addEventListener('click', (e) => {
+    window.open("index.html", '_blank');
+})
+
 rightBtn.addEventListener('click', () => {
     activeSlide++;
     if(activeSlide > slides.length - 1) {
