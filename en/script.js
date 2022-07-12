@@ -24,7 +24,7 @@ info.addEventListener('click', (e) => {
 })
 
 ro.addEventListener('click', (e) => {
-    window.open("index.html", '_blank');
+    window.open("../index.html", '_blank');
 })
 
 en.addEventListener('click', (e) => {
