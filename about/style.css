@@ -15,8 +15,22 @@ body {
     overflow: hidden;
 }
 
-h2, h3 {
+h2, h3, h4 {
     font-family: inherit;
     text-align: center;
-    align-items: flex-end;
+    color: whitesmoke;
+}
+
+.slide {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+
+@media (max-width: 840px) {
+    .slider-container {
+        height: 85vh;
+        width: 85vw;
+    }
 }
