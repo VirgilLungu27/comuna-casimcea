@@ -6,7 +6,8 @@ const slides = document.querySelectorAll('.slide');
 const leftBtn = document.getElementById('left');
 const rightBtn = document.getElementById('right');
 const info = document.getElementById('info');
-
+const ro = document.querySelector('.ro');
+const en = document.querySelector('.en');
 
 let activeSlide = 0;
 

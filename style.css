@@ -61,12 +61,23 @@ h2 {
     font-weight: 200;
 }
 
-.nav-btn {
+.lang {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding-right: 100px;
+    padding-top: 25px;
+}
+
+.ro, .en {
     border: none;
-    background-color: transparent;
     cursor: pointer;
-    font-size: 35px;
+    border-radius: 5px;
+    font-size: 12px;
     color: whitesmoke;
+    padding: 4px;
+    background-color: darkslateblue;
 }
 
 .wiki-div {
@@ -87,6 +98,13 @@ h2 {
     padding: 12px;
 }
 
+.nav-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 35px;
+    color: whitesmoke;
+}
 
 .open-btn {
     position: fixed;
