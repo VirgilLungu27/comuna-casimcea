@@ -21,6 +21,13 @@ body {
     -webkit-filter: blur(8px);
 }
 
+.info {
+    display: inline-block;
+    position: absolute;
+    height: 25vh;
+    text-align: center;
+    color: whitesmoke;
+}
 
 @media (max-width: 840px) {
     .slider-container {
