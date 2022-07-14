@@ -284,7 +284,7 @@ img:focus {
     color: whitesmoke;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 1100px) {
     .slider-container {
         height: 80vh;
         width: 80vw;
